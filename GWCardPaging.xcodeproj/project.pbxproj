@@ -13,6 +13,8 @@
 		1F766C48247D8E5D002CE221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F766C46247D8E5D002CE221 /* Main.storyboard */; };
 		1F766C4A247D8E5F002CE221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F766C49247D8E5F002CE221 /* Assets.xcassets */; };
 		1F766C4D247D8E5F002CE221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F766C4B247D8E5F002CE221 /* LaunchScreen.storyboard */; };
+		1F766C56247D8E96002CE221 /* GWPaginationLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F766C55247D8E96002CE221 /* GWPaginationLayout.swift */; };
+		1F766C58247D90BB002CE221 /* GWPagingCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F766C57247D90BB002CE221 /* GWPagingCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1F766C49247D8E5F002CE221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F766C4C247D8E5F002CE221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F766C4E247D8E5F002CE221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F766C55247D8E96002CE221 /* GWPaginationLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWPaginationLayout.swift; sourceTree = "<group>"; };
+		1F766C57247D90BB002CE221 /* GWPagingCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWPagingCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		1F766C3F247D8E5D002CE221 /* GWCardPaging */ = {
 			isa = PBXGroup;
 			children = (
+				1F766C54247D8E7F002CE221 /* Source */,
 				1F766C40247D8E5D002CE221 /* AppDelegate.swift */,
 				1F766C42247D8E5D002CE221 /* SceneDelegate.swift */,
 				1F766C44247D8E5D002CE221 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				1F766C4E247D8E5F002CE221 /* Info.plist */,
 			);
 			path = GWCardPaging;
+			sourceTree = "<group>";
+		};
+		1F766C54247D8E7F002CE221 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1F766C55247D8E96002CE221 /* GWPaginationLayout.swift */,
+				1F766C57247D90BB002CE221 /* GWPagingCollectionView.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F766C45247D8E5D002CE221 /* ViewController.swift in Sources */,
+				1F766C56247D8E96002CE221 /* GWPaginationLayout.swift in Sources */,
 				1F766C41247D8E5D002CE221 /* AppDelegate.swift in Sources */,
+				1F766C58247D90BB002CE221 /* GWPagingCollectionView.swift in Sources */,
 				1F766C43247D8E5D002CE221 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
